@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+
+.logo, .row, .navbar, .navitem, .container {
+  display: block;
+}
+
+/*************** Header **************/
+.row {
+  height: 6em;
+  padding-top: 4em;
+  overflow: hidden;
+}
+
+.logoimg{
+  height: 7em;
+  /*width: 7em;*/
+  position: relative;
+  padding-left: 25px;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.navbar a {
+  color: rgb(98, 88, 91);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.navbar {
+  height: 2em;
+  list-style-type: none;
+  padding-right: 25px;
+  overflow: hidden;
+  float: right;
+}
+
+.navitem {
+  float: left;
+  padding-left: 1.5em;
+}
+
+
+/************* Header ****************/
+
+/************* Main ******************/
+
+section {
+  padding: 10px;
+}
+
+.flexslider img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/*.flex-control-nav flex-control-paging .flex-direction-nav {
+  display: none;
+}*/
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(98, 88, 91);
+  display: block;
+  padding: 10px;
+}
+
+p {
+  font-size: 1em;
+  font-weight: normal;;
+  color: rgb(98, 88, 91);
+  display: block;
+  padding: 10px;
+}
+
+.product-image {
+  padding: 10px, 10px;
+}
+
+.product-image img {
+  display: inline-block;
+  max-width: 35%;
+  padding: 10px;
+}
+
+
+.container {
+  width: inherit;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contactus-content img {
+  width: 30%;
+  padding: 10px;
+  float: left;
+}
+
+.googleMap {
+  width: 70%;
+  height: 380px;
+  float: left;
+}
+
+.image-map-container {
+  border: 5px solid black;
+  overflow: hidden;
+}
+
+.icon {
+  height: 6em;
+  padding-left: 10px;
+  float: left;
+}
+
+.share img {
+  max-width: 2em;
+  overflow: hidden;
+}
+
+.product-item {
+  position: relative;
+}
+
+.womenswear:hover {
+  opacity: 0.5;
+}
+
+.womenswear:hover ~ .womenswear-text {
+  display: block;
+}
+
+.womenswear-text:hover {
+  display: block;
+}
+
+
+
+.womenswear-text {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 8%;
+}
+
+/************* Main ******************/
+
+/************* Footer ******************/
+
+
+.footer {
+  height: 2em;
+  background-color: rgb(98, 88, 91);
+  color: white;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+/************* Footer ******************/
+
+/************* Responsive ******************/
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 680px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 980px;
+  }
+}
+
+/************* Responsive ******************/
+
+
+.flex-direction-nav a:before {
+  color: rgb(59, 84, 170);
+}
+
+.flex-control-paging li a.flex-active {
+  background: rgb(108, 154, 244);
+}
+
+.flex-control-paging li a {
+  background: rgb(59, 84, 170);
+}
